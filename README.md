@@ -1,19 +1,24 @@
 ##Git Flavored Markup with Syntax Highlighting
 
+
 gfm-syntaxhighlighter allows for syntax highlighting while using github flavored markdown
 
 ##Dependencies
-*Wordpress 4.2.4
-*PHP 5.6
+* Wordpress 4.2.4
+* PHP 5.6
+
 Plugins:
-	*wp-gfm
-	*syntaxhighlighter
+* wp-gfm
+* syntaxhighlighter
 
 ## Installation
 
 Install these plugins:
+
  1 wp-gfm - https://github.com/makotokw/wp-gfm.git
+ 
  2 Syntax Highlighter Evolved - https://wordpress.org/plugins/syntaxhighlighter/
+ 
  3 gfm-syntaxhighlighter -
 
 ## Usage
