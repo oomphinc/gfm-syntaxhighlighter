@@ -84,6 +84,8 @@ class GFM_SyntaxHighlighter {
 
 	static function replace_placeholders( $content ) {
 		global $SyntaxHighlighter;
+		//Removing <p> tags from code snippets
+		$content = preg_replace( '#\<p\>(::code_block\d+::)\<\/p\>#s','$1' , $content );
 
 		foreach( self::$code_block as $placeholder => $matches ) {
 			$code = $SyntaxHighlighter->parse_shortcodes( '[code lang="' . $matches[2] . '""]' . html_entity_decode( $matches[3] ) . '[/code]');
