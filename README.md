@@ -19,7 +19,7 @@ Install these plugins:
  
  2 Syntax Highlighter Evolved - https://wordpress.org/plugins/syntaxhighlighter/
  
- 3 gfm-syntaxhighlighter -
+ 3 gfm-syntaxhighlighter - https://wordpress.org/plugins/gfm-syntaxhighlighter/
 
 ## Usage
 
